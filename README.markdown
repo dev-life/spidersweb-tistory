@@ -14,7 +14,7 @@ Github에서 ZIP 버튼을 누르거나 DOWNLOAD 버튼을 누르시면 스킨�
 * Textcube : [Spider's Web - 텍스트큐브 ver 1.0](https://github.com/minordev/spidersweb-textcube/ "Spider's Web 텍스트큐브 버전")
 * Wordpress(준비중) :  [Spider's Web - 워드프레스 ver 1.0](https://github.com/minordev/spidersweb-wordpress/ "Spider's Web 워드프레스 버전")
 
- # Usage
+# Usage
 
 * Tistory : 스킨 선택 -> 새스킨 등록 -> 스킨 저장명 입력 -> 파일 업로드 -> 적용 
 * Textcube : FTP 연결 -> skin - blog 폴더에 업로드 -> 스킨 선택 
