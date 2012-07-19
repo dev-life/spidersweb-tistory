@@ -20,10 +20,12 @@ Spider's Web 스킨은 'HTML5'와 'CSS3'로 제작 됐습니다. 파이어폭스
 
 # Contact
 
+문의사항 및 버그리포트 또는 제안사항은 페이스북으로 연락바랍니다. 블로그에 댓글로 남겨주시면 확인할 수 없습니다. 시간 관계상 답변을 드릴 수 없을 때는 공지를 하겠습니다. 
+
 facebook : [https://facebook.com/minordev/](https://facebook.com/minordev/)
 Github : [https://github.com/minordev](https://github.com/minordev/)
 Email : minordev@facebook.com 
 
 # License and Copyright
 
-Spider's Web 스킨은 개인에게 공유하지만, 어떠한 경우에도 영리 목적으로 스킨을 사용할 수 없습니다. 블로그에 구글 애드센스와 같은 광고를 게재하는 것은 영리 목적에서 제외합니다. 스킨 수정은 가능하나 반드시 모든 유저들에게 공유해야 합니다. 더 좋은 스킨으로 업데이트할 수 있도록 동참해주시면 감사하겠습니다. 재배포 시 Spider's Web 타이틀과 제작자 minordev 이름 및 링크를 반드시 포함시켜야 합니다.
+Spider's Web 스킨은 개인에게 공유하지만, 어떠한 경우에도 영리 목적으로 스킨을 사용할 수 없습니다. 개인 블로그에 구글 애드센스와 같은 광고를 게재하는 것은 영리 목적에서 제외합니다. 스킨 수정은 가능하나 반드시 모든 유저들에게 공유해야 합니다. 더 좋은 스킨으로 업데이트할 수 있도록 동참해주시면 감사하겠습니다. 수정한 스킨을 재배포 시 Github에 릴리즈 될 수 있도록 skin.html과 style.css를 보내주세요.  
