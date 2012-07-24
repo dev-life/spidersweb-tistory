@@ -8,7 +8,7 @@ Spider's Web 스킨은 <CODE>HTML5</CODE>와 <CODE>CSS3</CODE>로 제작 됐습�
 
 #Download
 
-Github에서 ZIP 버튼을 누르거나 DOWNLOAD 버튼을 누르시면 스킨을 받아볼 수 있습니다. 
+Github에서 DOWNLOAD 버튼을 누르시면 스킨을 받아볼 수 있습니다. 
 
 * Tistory : [Spider's Web - 티스토리](https://github.com/minordev/spidersweb-tistory/downloads/ "Spider's Web 티스토리 버전" )
 * Textcube : [Spider's Web - 텍스트큐브](https://github.com/minordev/spidersweb-textcube/downloads/ "Spider's Web 텍스트큐브 버전")
