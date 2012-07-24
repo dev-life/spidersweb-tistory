@@ -6,15 +6,16 @@
 <link rel="alternate" type="application/rss+xml" title="[##_title_##]" href="[##_rss_url_##]" />
 <link rel="stylesheet" media="screen" type="text/css" href="./style.css" />
 <link rel="shortcut icon" href="[##_blog_link_##]favicon.ico" />
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script> 
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script src="./images/slides.min.jquery.js"></script>
 <script src="./images/jquery.jtweetsanywhere-1.3.1.min.js"></script>
 <script src="./images/jtweetsanywhere-de-1.3.1.min.js"></script>
 <script type="text/javascript" src="http://platform.twitter.com/anywhere.js?id=B983a7r7qGI1oyBa0QOA&v=1"></script>
 
 <script>
-		$(function(){
-			$('#slides').slides({
+var $j = jQuery.noConflict();
+		$j(function(){
+			 $j('#slides').slides({
 				preload: true
 
 			});
@@ -542,7 +543,7 @@ src:url(./images/NanumGothic.eot);
 
 </s_t3>
 <script type="text/javascript">
-$('#jTweetsAnywherePagingBackAndForthSample').jTweetsAnywhere({
+$j('#jTweetsAnywherePagingBackAndForthSample').jTweetsAnywhere({
     searchParams: ['q=html5'],
     count: 2,
     showTweetFeed: {
