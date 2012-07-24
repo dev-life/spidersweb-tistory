@@ -226,12 +226,15 @@ hgroup h1.blog-title a:hover {
 /***** sns link *************/
 
 #linkbox {
-    float:right;
+    float:left;
     width:290px;
-    height:80px;
+    height:80px; 
 }
-ul#snslink li {
-    display:inline;
+#linkbox-inner {
+    padding-right:10px;
+    float:right;
+}
+#snslink li {     
     float:left;
 }
 

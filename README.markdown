@@ -1,4 +1,4 @@
-#Spider's Web Skin 
+﻿#Spider's Web Skin 
 
 
 ![Spider's Web thumbnail image](http://cfs.tistory.com/custom/blog/79/798356/skin/preview.gif?=891518230 "Spider's Web thumnail image")
@@ -10,8 +10,8 @@ Spider's Web 스킨은 <CODE>HTML5</CODE>와 <CODE>CSS3</CODE>로 제작 됐습�
 
 Github에서 ZIP 버튼을 누르거나 DOWNLOAD 버튼을 누르시면 스킨을 받아볼 수 있습니다. 
 
-* Tistory : [Spider's Web - 티스토리 ver 1.0](https://github.com/minordev/spidersweb-tistory/ "Spider's Web 티스토리 버전" )
-* Textcube : [Spider's Web - 텍스트큐브 ver 1.0](https://github.com/minordev/spidersweb-textcube/ "Spider's Web 텍스트큐브 버전")
+* Tistory : [Spider's Web - 티스토리](https://github.com/minordev/spidersweb-tistory/ "Spider's Web 티스토리 버전" )
+* Textcube : [Spider's Web - 텍스트큐브](https://github.com/minordev/spidersweb-textcube/ "Spider's Web 텍스트큐브 버전")
 
 # Usage
 
