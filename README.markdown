@@ -22,7 +22,7 @@ Github에서 DOWNLOAD 버튼을 누르시면 스킨을 받아볼 수 있습니�
 
 문의사항 및 버그리포트 또는 제안사항은 페이스북으로 연락바랍니다. 블로그에 댓글로 남겨주시면 확인할 수 없습니다. 시간 관계상 답변을 드릴 수 없을 때는 공지를 하겠습니다. 
 
-> facebook : [https://facebook.com/minordev/](https://facebook.com/minordev/)
+> facebook : [https://facebook.com/spidersweb.html5/](https://facebook.com/spidersweb.html5/)
 > Github : [https://github.com/minordev](https://github.com/minordev/)
 > Email : minordev@facebook.com 
 
