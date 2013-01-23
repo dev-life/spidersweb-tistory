@@ -1,26 +1,159 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+<!--  Spider's Web Tistory Skin by minordev -->
+<!--  Homepage - http://minordev.com        -->
+<!--  Email - minordev@gmail.com            -->
+
 <meta charset="utf-8">
 <title>[##_title_##] : [##_page_title_##]</title>
 <link rel="alternate" type="application/rss+xml" title="[##_title_##]" href="[##_rss_url_##]" />
 <link rel="stylesheet" media="screen" type="text/css" href="./style.css" />
 <link rel="shortcut icon" href="[##_blog_link_##]favicon.ico" />
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script src="./images/slides.min.jquery.js"></script>
 <script src="./images/jquery.jtweetsanywhere-1.3.1.min.js"></script>
 <script src="./images/jtweetsanywhere-de-1.3.1.min.js"></script>
 <script type="text/javascript" src="http://platform.twitter.com/anywhere.js?id=B983a7r7qGI1oyBa0QOA&v=1"></script>
-
-<script>
+<!--[if IE]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<link rel="stylesheet" href="./images/nivo-slider.css" type="text/css" media="screen" />
+<script type="text/javascript" src="./images/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
 var $j = jQuery.noConflict();
-		$j(function(){
-			 $j('#slides').slides({
-				preload: true
+    $j(window).load(function() {
+        $j('#slider').nivoSlider();
+    });
+    </script>
 
-			});
-		});
+<script type="text/javascript">
+var $j = jQuery.noConflict();
+$j(window).load(function() {
+    $j('#slider').nivoSlider({
+        effect: 'random', // Specify sets like: 'fold,fade,sliceDown'
+        slices: 15, // For slice animations
+        boxCols: 8, // For box animations
+        boxRows: 4, // For box animations
+        animSpeed: 10000, // Slide transition speed
+        pauseTime: 100, // How long each slide will show
+        startSlide: 0, // Set starting Slide (0 index)
+        directionNav: true, // Next & Prev navigation
+        controlNav: true, // 1,2,3... navigation
+        controlNavThumbs: false, // Use thumbnails for Control Nav
+        pauseOnHover: true, // Stop animation while hovering
+        manualAdvance: false, // Force manual transitions
+        prevText: 'Prev', // Prev directionNav text
+        nextText: 'Next', // Next directionNav text
+        randomStart: false, // Start on a random slide
+        beforeChange: function(){}, // Triggers before a slide transition
+        afterChange: function(){}, // Triggers after a slide transition
+        slideshowEnd: function(){}, // Triggers after all slides have been shown
+        lastSlide: function(){}, // Triggers when last slide is shown
+        afterLoad: function(){} // Triggers when slider has loaded
+    });
+});
 </script>
+<style>
+.theme-default .nivoSlider {
+	position:relative;
+	background:#fff url(./images/loading.gif) no-repeat 50% 50%;
+    margin-bottom:10px;
+    -webkit-box-shadow: 0px 1px 5px 0px #4a4a4a;
+    -moz-box-shadow: 0px 1px 5px 0px #4a4a4a;
+    box-shadow: 0px 1px 5px 0px #4a4a4a;
+}
+.theme-default .nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+.theme-default .nivoSlider a {
+	border:0;
+	display:block;
+}
+
+.theme-default .nivo-controlNav {
+	text-align: center;
+	padding: 20px 0;
+}
+.theme-default .nivo-controlNav a {
+	display:inline-block;
+	width:22px;
+	height:22px;
+	background:url(./images/bullets.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin: 0 2px;
+}
+.theme-default .nivo-controlNav a.active {
+	background-position:0 -22px;
+}
+
+.theme-default .nivo-directionNav a {
+	display:block;
+	width:30px;
+	height:30px;
+	background:url(./images/arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	opacity: 0;
+	-webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+.theme-default:hover .nivo-directionNav a { opacity: 1; }
+.theme-default a.nivo-nextNav {
+	background-position:-30px 0;
+	right:15px;
+}
+.theme-default a.nivo-prevNav {
+	left:15px;
+}
+
+.theme-default .nivo-caption {
+    font-family: Helvetica, Arial, sans-serif;
+}
+.theme-default .nivo-caption a {
+    color:#fff;
+    border-bottom:1px dotted #fff;
+}
+.theme-default .nivo-caption a:hover {
+    color:#fff;
+}
+
+.theme-default .nivo-controlNav.nivo-thumbs-enabled {
+	width: 100%;
+}
+.theme-default .nivo-controlNav.nivo-thumbs-enabled a {
+	width: auto;
+	height: auto;
+	background: none;
+	margin-bottom: 5px;
+}
+.theme-default .nivo-controlNav.nivo-thumbs-enabled img {
+	display: block;
+	width: 120px;
+	height: auto;
+}
+</style>
+
+
+<!--[if lt IE 10]>
+<script type="text/javascript" src="./images/PIE.js"></script>
+<script type="text/javascript">
+var $j = jQuery.noConflict();
+$j(function() {
+    if (window.PIE) {
+        $j('#wrapper-inner, #banner-inner, pre, #contentinfo-inner, .profile-image, .slider-wrapper').each(function() {
+            PIE.attach(this);
+        });
+    }
+});
+</script>
+<![endif]-->
 
 <!--[if IE]> 
 <style type="text/css" media="screen, print">
@@ -30,6 +163,37 @@ src:url(./images/NanumGothic.eot);
 } 
 </style>
 <![endif]-->
+<!--[if IE 6]>
+<style type="text/css">
+#contentinfo-inner  {
+    width: 980px;
+    margin: 0 auto;
+    padding:20px 0px 30px 0px;
+    background:url(./images/footbg.png) left top repeat;
+}
+#main {
+    width:670px;
+    float:left;
+    overflow: hidden;
+}
+#main-inner  {
+    width:670px;
+    position: relative;
+    border-right:1px solid #e0e0e0;
+}
+#sidebar {
+    width:310px;
+    float:left;
+    overflow: hidden;
+}
+#sidebar-inner {
+    width:310px;
+    position: relative;
+}
+
+</style>
+<![endif]-->
+
 </head>
 
 <body id="bg">
@@ -67,21 +231,12 @@ src:url(./images/NanumGothic.eot);
  </div>
 </header>
 
-<section id="slides">
-    <div class="slides_container">
-	  <div>
-           <a title="Spider's Web 뮤직비디오 포스팅으로 이동합니다." href="http://spidersweb.tistory.com/entry/Katie-Melua-Spiders-Web"><img src="./images/slide1.jpg" alt="slide image" width="980" height="270" /></a>
-      </div>
-	
-      <div><p class="slides-text">Spider's Web 스킨은 HTML5와 CSS3로 마크업 되어 있습니다. 익스플로러6는 지원하지 않습니다. 이 스킨은 개인에게 배포하는 것으로 익스플로러6 사용을 멈추는 것에 동참해주시기 바랍니다. 모던브라우저 <a  title="[http://mozilla.or.kr/firefox]로 이동합니다." href="http://www.mozilla.or.kr/ko/firefox/">파이어폭스</a>, <a title="[http://google.com/chrome?hl=ko]로 이동합니다."  href="https://www.google.com/chrome?hl=ko">크롬</a>, <a  title="[http://opera.com]으로 이동합니다." href="http://www.opera.com/">오페라</a> 등으로 쾌적한 인터넷을 즐겨보세요.<br /><br />Spider's Web의 디자인은 텍스트큐브와 티스토리의 기본 모듈을 모두 포함하지 않습니다. 반드시 필요한 카테고리(네비게이션), 최근 글 목록, 최근 댓글 목록, 최근 트랙벡 목록 모듈만 사용합니다. 추가적인 모듈 코딩 및 디자인은 셀프입니다.<br /><br />문의, 버그리포트, 제안 등은 <a title="[http://facebook.com]으로 이동합니다."  href="http://facebook.com/spidersweb.html5">페이스북</a>으로 연락 부탁드립니다. <a title="[http://github.com]으로 이동합니다."  href="http://github.com/minordev">Github</a>에 가입 후 이슈를 남겨주셔도 좋습니다. 블로그 댓글은 확인하지 않습니다. 또한 시간 관계로 더이상 업데이트가 불가능할 때는 답변을 못드리니 양해 바랍니다. <br /><br /><img src="./images/modern.png" alt="modern image" style="float:right;" width="150" height="145" /></p> 
-
-      </div>
-
-      <div><p class="slides-text">슬라이드의 개수는 제한이 없습니다. 3개든 6개든 유저의 선택 사항입니다. 만약 슬라이드를 하나만 사용할 시 아래에 보이는 슬라이드 버튼은 표시되지 않습니다.<br /><br />Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br /><br />Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      </div>
-
-    </div>
-</section>
+        <div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+<a href="#"><img src="./images/slide1.jpg" alt="slide image" /></a>
+<a href="#"><img src="./images/juri.jpg" alt="slide image 2" /></a>
+           </div>
+</div>
 
 <!-- wrapper -->
 <div id="wrapper">
@@ -449,7 +604,7 @@ src:url(./images/NanumGothic.eot);
 						 <s_sidebar_element>
                          <!-- 최근 트랙백 모듈 -->
                          <menu class="recentMenu">
-                             <h4>Recent Tracbacks</h4>
+                             <h4>Recent Trackbacks</h4>
                                  <ul>
                                      <s_rcttb_rep>
                                      <li>
@@ -532,11 +687,15 @@ src:url(./images/NanumGothic.eot);
                      <li><a title="관리자 페이지로 이동합니다." href="[##_owner_url_##]">admin</a> | </li>
                      <li><a title="글쓰기 페이지로 이동합니다." href="[##_owner_url_##]/entry/post">write</a> | </li>
                      <li>Powered by <a title="티스토리 홈으로 이동합니다." href="http://tistory.com">[##_tattertools_name_##]</a> | </li> 
-                     <li>design by <a title="minordev의 페이스북으로 이동합니다." href="http://facebook.com/spidersweb.html5">minordev</a> | </li>
+                     <li>design by <a title="minordev의 홈페이지로 이동합니다." href="http://minordev.com">minordev</a> | </li>
                      <li><a title="HTML5 유효성검사 페이지로 이동합니다." href="http://validator.w3.org/check?uri=referer">HTML5</a> | </li>
                      <li><a title="CSS3 유효성검사 페이지로 이동합니다." href="http://jigsaw.w3.org/css-validator/check/referer">CSS3</a> | </li>
-                     <li>Total : [##_count_total_##] Today : [##_count_today_##] Yesterday : [##_count_yesterday_##]</li>
                  </ul>
+                     <ul>  
+                     <li>Total : [##_count_total_##] </li>
+                     <li>Today : [##_count_today_##] </li>
+                     <li>Yesterday : [##_count_yesterday_##]</li>
+                     </ul>
              </div>
              </section>
 

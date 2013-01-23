@@ -2,7 +2,7 @@
 <skin version="1.0" language="ko">
 	<information>
 		<name>Spider's Web</name>
-		<version>1.1</version>
+		<version>2.0</version>
 		<description>
 			<![CDATA[ Spider's Web 스킨입니다. 티스토리, 텍스트큐브에서 스킨을 사용할 수 있습니다. 
 			]]>
@@ -14,7 +14,7 @@
 	<author>
 		<name>minordev</name>
 		<homepage>http://spidersweb.tistory.com</homepage>
-		<email>minordev@facebook.com</email>
+		<email>minordev@gmail.com</email>
 	</author> 
 	<default>
 		<recentEntries>5</recentEntries>

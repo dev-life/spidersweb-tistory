@@ -1,5 +1,12 @@
 ﻿@charset "utf-8";
 @font-face { font-family:ngttf; src:url(./images/NanumGothic.ttf); }
+
+/*  
+      - Spider's Web Tistory Skin by minordev
+      - Homepage - http://minordev.com
+      - email - minordev@gmail.com
+*/ 
+
 /* ---- Default Styles ---- */
 * {
     margin: 0;
@@ -1067,65 +1074,14 @@ width:10px;
 }
 
 
-/*  
-    Slides container
-    Important:
-    Set the width of your slides container
-    Set to display none, prevents content flash 
-*/
-section#slides {
-        width:980px;
-        margin:0 auto; 
-	box-shadow: 0px 0px 15px rgba(0,0,0,.3);
-	-moz-box-shadow: 0px 0px 15px rgba(0,0,0,.3);	
-	-webkit-box-shadow: 0px 0px 15px rgba(0,0,0,.3);	
-	-o-box-shadow: 0px 0px 15px rgba(0,0,0,.3);	
-}
-.slides_container { margin:20px 0 0 0; display:none; }
-		/*
-			Each slide
-			Important:
-			Set the width of your slides
-			If height not specified height will be set by the slide content
-			Set to display block
-		*/
-.slides_container div { 
-    width:980px;
-    height:270px;
-    display:block;
-}
-p.slides-text {
-    padding:15px;
-    font-size:.8em;
-    background-color:#fff;
-    height:270px;
-}
-/*
-   Optional:
-   Reset list default style
-*/
-.pagination {
-	margin:10px auto;
-        width:100px;
-}
-.pagination li {
-	float:left;
-	margin:0 1px;
-	list-style:none;
-}
-.pagination li a {
-	display:block;
-	width:12px;
-	height:0;
-	padding-top:12px;
-        margin-bottom:20px;
-	background-image:url(./images/pagination.png);
-	background-position:0 0;
-	float:left;
-	overflow:hidden;
-}
-.pagination li.current a {
-	background-position:0 -12px;
+/* --------------------------------------slider ----------------------- */
+
+.slider-wrapper {
+    margin: 20px auto;
+    padding: 0;
+    position: relative;
+    width: 980px;
+    height:330px;
 }
 
 
